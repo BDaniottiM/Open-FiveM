@@ -8,7 +8,8 @@ Para isso você vai precisar instalar o Python na **Microsoft Store** e instalar
 ![image](https://i.imgur.com/I6bc1Ql.png)
 
 ### Baixe o arquivo e armazene em uma pasta segura.
-![image](https://i.imgur.com/gyVCgeh.png)![image](https://i.imgur.com/H2W5TzX.png)
+![image](https://i.imgur.com/os1FgSy.png)
+O arquivo que faz a mágica acontecer é o FiveM.py e nesse tutorial vamos utilizar só ele 
 
 ## Oque eu preciso fazer para deixar bonitinho no **Menu Iniciar**?
 

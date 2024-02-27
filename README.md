@@ -22,10 +22,10 @@ Para isso você vai precisar instalar o Python na **Microsoft Store** e instalar
 ![image](https://i.imgur.com/0cE4DCU.png)
 
 ### Recorte esse atalho e envie na pasta:
-    ```
-    C:\ProgramData\Microsoft\Windows\Start Menu\Programs
-    ```
-    ![image](https://i.imgur.com/aXSXg2w.png)
+```
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+```
+![image](https://i.imgur.com/aXSXg2w.png)
 ### Depois de colocar na pasta, o atalho vai estar no seu **Menu Iniciar**, daí é só clicar em Fixar em iniciar
 ![imgage](https://i.imgur.com/NKf2xq5.png)
 =

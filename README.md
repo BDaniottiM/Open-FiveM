@@ -2,7 +2,11 @@
 [![](https://imgur.com/CS4cPKV.png)](https://streamable.com/ydpx4x)
 =
 # Tutorial:
-## Esse programa abre seu FiveM, a sala de abrir pontos e abre uma janela te avisando. A mesma coisa acontece quando você fecha o FiveM, ele abre a sala de abrir pontos e te lembra de fechar o ponto
+Esse programa abre seu FiveM, a sala de abrir pontos e abre uma janela te avisando. A mesma coisa acontece quando você fecha o FiveM, ele abre a sala de abrir pontos e te lembra de fechar o ponto.
+Para isso você vai precisar instalar o Python na **Microsoft Store** e instalar somente o básico python em sua ultima versão, atualmente estamos na 3.12
+
+![image](https://i.imgur.com/I6bc1Ql.png)
+
 
 ### Oque eu preciso fazer para deixar bonitinho no **Menu Iniciar**?
 - Baixe o arquivo e armazene em uma pasta segura.

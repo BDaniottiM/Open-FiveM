@@ -11,8 +11,9 @@ Para garantir que o codigo funcione (ele te avisar que tem que fechar o ponto) n
 
 ![image](https://i.imgur.com/I6bc1Ql.png)
 
-### Baixe o arquivo e armazene em uma pasta segura, de preferência coloque nos Documentos do seu computador.
+### Clique no patinho para baixar o arquivo e armazene em uma pasta segura, de preferência coloque nos Documentos do seu computador.
 [![pato](https://imgur.com/T0oHae5.png)](https://github.com/BDaniottiM/Open-FiveM/archive/refs/heads/main.zip)
+
 O arquivo que faz a mágica acontecer é o FiveM.py e nesse tutorial vamos utilizar só ele 
 
 ## Oque eu preciso fazer para deixar bonitinho no **Menu Iniciar**?

@@ -21,43 +21,33 @@ def install_package(package_name):
     except subprocess.CalledProcessError as e:
         print(f"Erro ao instalar {package_name}: {e}")
 
-# Instala o pip se não estiver instalado
 if not importlib.util.find_spec("pip"):
     install_pip()
 
-# Instala psutil e PyQt5 se não estiverem instalados
 packages = ['psutil', 'PyQt5']
 for package in packages:
     if not importlib.util.find_spec(package):
         install_package(package)
 
-# Seu código principal continua aqui...
-
 app = QApplication(sys.argv)
 discord_url = "discord://https://discord.com/channels/865690041966919689/1018324428381229076"
-
-# URL para abrir no navegador
 fivem_url = "fivem://connect/kamikazegtarp.com.br?pure_1"
 
-# Função para verificar o status do aplicativo
 def check_process():
     for proc in psutil.process_iter(attrs=['pid', 'name']):
         if "FiveM.exe" in proc.info['name']:
             return True
     return False
 
-# Função para exibir a caixa de diálogo
 def show_message_box(title, text, informative_text):
     msg_box = QMessageBox()
     msg_box.setWindowTitle(title)
     msg_box.setText(text)
     msg_box.setInformativeText(informative_text)
-    msg_box.setWindowIcon(QIcon())  # Usa o ícone padrão do PyQt5
+    msg_box.setWindowIcon(QIcon())
 
-    # Define o tamanho da janelaa
     msg_box.resize(800, 400)
 
-    # Define o tamanho do texto usando folhas de estilo
     msg_box.setStyleSheet("QLabel{ font-size: 24px; }")
 
     msg_box.setWindowFlags(msg_box.windowFlags() | Qt.WindowStaysOnTopHint)
@@ -67,16 +57,13 @@ def show_message_box(title, text, informative_text):
 
 def show_open_ponto_message():
     show_message_box("Abre o ponto", "Não esquece de abrir o ponto!", "Não esquece de abrir a porra do ponto nesse caralho.")
-    webbrowser.open(fivem_url)  # Abre a URL em uma nova aba do navegador
+    webbrowser.open(fivem_url)
 
-# Função para exibir a mensagem de fechamento
 def show_fechar_ponto_message():
     show_message_box("Fecha seu ponto", "Cê fechou o fivem, agora fecha o ponto!", "Puta burra")
 
-# Exibir a mensagem pedindo para abrir o ponto quando o FiveM for aberto
 show_open_ponto_message()
 
-# Verificar o status do aplicativo e esperar até que o FiveM seja fechado
 if check_process():
     procs = psutil.process_iter(attrs=['pid', 'name'])
     fivem_procs = [p for p in procs if "FiveM.exe" in p.info['name']]

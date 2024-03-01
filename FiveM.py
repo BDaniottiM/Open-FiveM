@@ -7,6 +7,32 @@ from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QIcon
 import os
 
+def install_pip():
+    try:
+        subprocess.check_call([sys.executable, "-m", "ensurepip", "--default-pip"])
+        print("pip instalado com sucesso!")
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao instalar pip: {e}")
+
+def install_package(package_name):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
+        print(f"{package_name} instalado com sucesso!")
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao instalar {package_name}: {e}")
+
+# Instala o pip se não estiver instalado
+if not os.path.exists(sys.prefix + "/Scripts/pip"):
+    install_pip()
+
+# Instala psutil e PyQt5 se não estiverem instalados
+packages = ['psutil', 'PyQt5']
+for package in packages:
+    if not os.system(f"{sys.executable} -c 'import {package}'") == 0:
+        install_package(package)
+
+# Seu código principal continua aqui...
+
 app = QApplication(sys.argv)
 discord_url = "discord://https://discord.com/channels/865690041966919689/1018324428381229076"
 

@@ -54,7 +54,7 @@ def show_message_box(title, text, informative_text):
     msg_box.setInformativeText(informative_text)
     msg_box.setWindowIcon(QIcon())  # Usa o ícone padrão do PyQt5
 
-    # Define o tamanho da janela
+    # Define o tamanho da janelaa
     msg_box.resize(800, 400)
 
     # Define o tamanho do texto usando folhas de estilo

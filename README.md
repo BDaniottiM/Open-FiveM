@@ -3,7 +3,7 @@
 =
 # Tutorial:
 Esse programa abre seu FiveM, a sala de abrir pontos e abre uma janela te avisando. A mesma coisa acontece quando você fecha o FiveM, ele abre a sala de abrir pontos e te lembra de fechar o ponto.
-Para isso você vai precisar instalar o Python na **Microsoft Store** e instalar somente o básico python em sua ultima versão, atualmente estamos na 3.12
+Para isso você vai precisar instalar o [**Python na Microsoft Store**](https://www.microsoft.com/store/productId/9NCVDN91XZQP?ocid=pdpshare) e instalar somente o básico python em sua ultima versão, atualmente estamos na 3.12
 
 O código precisa de duas bilbiotecas do Python para funcionar, o psutil e a Pyqt5. Ambas são instaladas assim que você inicie abre o código. Não se preocupe se quando você abrir o prompt de comando e aparecer muitas linhas brancas, é só uma verificação para ver se as bibliotecas estão instaladas
 
@@ -11,8 +11,9 @@ Para garantir que o codigo funcione (ele te avisar que tem que fechar o ponto) n
 
 ![image](https://i.imgur.com/I6bc1Ql.png)
 
-### Baixe o arquivo e armazene em uma pasta segura, de preferência coloque nos Documentos do seu computador.
-![image](https://i.imgur.com/os1FgSy.png)
+### Clique no patinho para baixar o arquivo e armazene em uma pasta segura, de preferência coloque nos Documentos do seu computador.
+[![pato](https://imgur.com/T0oHae5.png)](https://github.com/BDaniottiM/Open-FiveM/archive/refs/heads/main.zip)
+
 O arquivo que faz a mágica acontecer é o FiveM.py e nesse tutorial vamos utilizar só ele 
 
 ## Oque eu preciso fazer para deixar bonitinho no **Menu Iniciar**?

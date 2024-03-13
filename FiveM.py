@@ -28,7 +28,7 @@ if not os.path.exists(sys.prefix + "/Scripts/pip"):
 # Instala psutil e PyQt5 se não estiverem instalados
 packages = ['psutil', 'PyQt5']
 for package in packages:
-    if not os.system(f"{sys.executable} -c 'import {package}'") == 0:
+    if not os.system(f"{sys.executable} -c import {package}") == 0:
         install_package(package)
 
 # Seu código principal continua aqui...

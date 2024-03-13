@@ -42,7 +42,6 @@ def check_process():
             return True
     return False
 
-# Função para exibir a caixa de diálogo
 def show_message_box(title, text, informative_text):
     msg_box = QMessageBox()
     msg_box.setWindowTitle(title)
